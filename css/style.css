@@ -119,7 +119,7 @@ text-decoration: none;
 }
 .auch-nav .link{
 color: var(--primary-text-color);
-margin-right: 30px;
+margin-right: 0px;
 
 }
 .auch-nav .link:hover,
@@ -411,11 +411,13 @@ padding: 0;
     fill:#757575;
 }
 .icon{
-    fill: #757575;
+    fill:currentColor;
+    margin-right: 40px;
+    
         
 }
 .icon:hover{
-    fill: #2196F3;
+    
     
 }
 .icon-company{
