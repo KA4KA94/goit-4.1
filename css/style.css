@@ -68,13 +68,14 @@ margin-right: auto;
 }
 /* Header */
 .header{
-    background-color: var(--bg-color);
-    background-color:#FFFFFF;
+        background-color: var(--bg-color);
+        background-color:#FFFFFF;
 }
 .main-nav{
     display: flex;
     align-items: center;
     height: 80px;
+
 }
 /* site-nav */
 .site-nav{
@@ -233,7 +234,7 @@ margin-top: 0;
 padding-top: 30px;
 
 }
-.list-title::{
+.list-title:: {
     content:"";
     display:block;
     height: 120px;
@@ -339,20 +340,27 @@ letter-spacing: 0.03em;
 
 /* Footer */
 .footer{
-   display: flex;
-   align-items: baseline;
+display: flex;
 height: 252px;
 background-color:var(--bg-color-black);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+}
+
+.container-footer{
+display: flex;
+padding-left: 15px;
+padding-right: 15px;
+width: 1270px;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
 
 
 }
-.container-footer{
 
- }
 .address{
     color: var(--bg-color-white);
     margin-bottom: 9px;
@@ -363,17 +371,6 @@ letter-spacing: 0.03em;
     text-decoration: none;
     margin-bottom: 9px;
     margin-top: 9px;
-}
-.soc{
-
-}
-.di{
-    display: flex;
-    width: 1270px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
 }
 
     
@@ -394,7 +391,12 @@ margin-top: 20px;
 .flex-elements{
     margin-top: 30px;
     margin-right: 30px; 
+
     
+}
+.flex-elements:hover{
+
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
     
 .heading .title{
@@ -443,6 +445,7 @@ padding: 0;
     
         
 }
+
 .icon:hover{
     
     
@@ -516,4 +519,46 @@ fill: #FFFFFF;
 .team .icon:hover .messenger{
     fill: #fff;
 }
+.footer{
 
+}
+.container-footer{
+    display: flex;
+    align-items: center;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    padding: 0 ;
+    
+    
+}
+
+.footer-title .icon{
+    display:flex;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.1);;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.footer-title .icon:hover{
+    background-color: var(--accent-color);
+}
+.text-footer{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.15;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer .section{
+    
+
+}
